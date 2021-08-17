@@ -1,0 +1,21 @@
+{
+  "name": "jogo",
+  "version": "1.0.0",
+  "description": "um jogo feito em js com auxílio de node + babel",
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  },
+  "main": "gameBabel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel gameBabel.js --watch --out-file game.js"
+  },
+  "author": "Gabriel Martorelli",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}
